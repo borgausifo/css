@@ -33,6 +33,31 @@
 .hotel-view {
     background-color: #fff;
     flex: 1; /*element can grow as much as it can */
-    height: 100rem;
+    // height: 100rem;
 
+}
+
+
+
+.detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+
+}
+
+.description {
+    background-color: white;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, .6);
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+    font-size: 1.4rem;
+
+}
+
+.user-reviews {
+    background-color: yellowgreen;
+    flex: 1;
 }
